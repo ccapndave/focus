@@ -3,6 +3,11 @@
 A Focus is a way to work with particular parts of a large chunk of data. On the most basic level, it lets you `get` and `set` fields of a deeply nested record in a more composable way.
 
 
+## This repository
+
+This repository is a direct copy of Evan's original code, simply made compatible with Elm 0.18 (since the original code is no longer being maintained).
+
+
 ## Problems with this Idea
 
 It is possible that the concept of a `Focus` is harmful to code quality in that it can help you to be lax with abstraction boundaries. By making it easy to look deep inside of data structures, it encourages you to stop thinking about how to make these substructures modular, perhaps leading to an architecture that is not as nice and has extra conceptual complexity.
